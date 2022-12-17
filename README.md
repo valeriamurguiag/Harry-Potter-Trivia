@@ -27,8 +27,7 @@ https://Harry-Potter-Trivia.valeriamurguia.repl.co
 
 ## 3. Imagen final del proyecto: Vista Mobile
 
-
-[![4.png](https://i.postimg.cc/m2Y034jW/4.png)](https://postimg.cc/rKpncv7f)
+[![4.png](https://i.postimg.cc/6pTfWLyb/4.png)](https://postimg.cc/3k5v9Gj2)
 
 
 [![5.png](https://i.postimg.cc/t4rvD4Vw/5.png)](https://postimg.cc/4Y91xZPQ)
