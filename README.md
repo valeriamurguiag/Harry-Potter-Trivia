@@ -13,6 +13,7 @@
 ## 1. Resumen del proyecto
 
 Plataforma que ofrece trivias de Harry Potter para todos los fans del mundo mágico de J. K. Rowling. 
+https://Harry-Potter-Trivia.valeriamurguia.repl.co
 
 
 ## 2. Imagen final del proyecto 
@@ -28,11 +29,11 @@ Plataforma que ofrece trivias de Harry Potter para todos los fans del mundo mág
 
 "Vista mobile: historia de usuario 1"
 
-[![4.png](https://i.postimg.cc/m2Y034jW/4.png)](https://postimg.cc/rKpncv7f)
+[![5.png](https://i.postimg.cc/t4rvD4Vw/5.png)](https://postimg.cc/4Y91xZPQ)
 
 "Vista mobile: historia de usuario 2
 
-a
+[![5.png](https://i.postimg.cc/t4rvD4Vw/5.png)](https://postimg.cc/4Y91xZPQ)
 
 
 "Vista mobile: historia de usuario 3"
