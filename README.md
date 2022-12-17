@@ -27,16 +27,14 @@ https://Harry-Potter-Trivia.valeriamurguia.repl.co
 
 ## 3. Imagen final del proyecto: Vista Mobile
 
-"Vista mobile: historia de usuario 1"
+
+[![4.png](https://i.postimg.cc/m2Y034jW/4.png)](https://postimg.cc/rKpncv7f)
+
 
 [![5.png](https://i.postimg.cc/t4rvD4Vw/5.png)](https://postimg.cc/4Y91xZPQ)
 
-"Vista mobile: historia de usuario 2
 
-[![5.png](https://i.postimg.cc/t4rvD4Vw/5.png)](https://postimg.cc/4Y91xZPQ)
-
-
-"Vista mobile: historia de usuario 3"
+[![6.png](https://i.postimg.cc/1tDHxmf9/6.png)](https://postimg.cc/tZCPWH3f)
 
 
 
