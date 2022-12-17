@@ -28,15 +28,15 @@ Plataforma que ofrece trivias de Harry Potter para todos los fans del mundo mág
 
 "Vista mobile: historia de usuario 1"
 
-[![imagen-final1-mobile.png](https://i.postimg.cc/rwXn7hJf/imagen-final1-mobile.png)](https://postimg.cc/JGx5k5SX)
+[![4.png](https://i.postimg.cc/m2Y034jW/4.png)](https://postimg.cc/rKpncv7f)
 
 "Vista mobile: historia de usuario 2
 
-[![imagen-final2-mobile.png](https://i.postimg.cc/s2t4ZxNw/imagen-final2-mobile.png)](https://postimg.cc/f3f9GzZ9)
+
 
 "Vista mobile: historia de usuario 3"
 
-[![imagen-final3-mobile.png](https://i.postimg.cc/TYRqbZtM/imagen-final3-mobile.png)](https://postimg.cc/9zn75N3J)
+
 
 
 ## 4. Investigación UX: Quiénes son los usuarios y los objetivos en relación con el producto
