@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Trivia de Harry Potter</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <style>
+    body {
+      background-color: black;
+      );
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <h4 class="aboreto" class="title">Harry Potter Trivia</h4>
+
+  <section>
+    <form name="triviaForm" onsubmit="return verificarRespuestas()">
+
+      <div class="container">
+        <h4>1. En la película, ¿quién entrega a Harry su carta de aceptación de Hogwarts?</h4>
+        <p>
+          <label for="e-q1-a1">A) Dumbeldore.</label>
+          <input id="e-q1-a1" name="q1" type="radio" value="a">
+        </p>
+        <p>
+          <label for="e-q1-a2">B) Hagrid.</label>
+          <input id="e-q1-a2" name="q1" type="radio" value="b">
+        </p>
+        <p>
+          <label for="e-q1-a3">C) Una lechuza.</label>
+          <input id="e-q1-a3" name="q1" type="radio" value="c">
+        </p>
+
+        <img src="HP-GIF4.gif" alt="Harry Potter" class="button" style="width:300px;height:120px;">
+      </div>
+
+
+      <div class="container">
+        <h4>2. ¿Qué son los muggles?<br>
+        </h4>
+        <p>
+          <label for="e-q2-a1">A) Personas no mágicas.</label>
+          <input id="e-q2-a1" name="q2" type="radio" value="a">
+        </p>
+        <p>
+          <label for="e-q2-a2">B) Magos.</label>
+          <input id="e-q2-a2" name="q2" type="radio" value="b">
+        </p>
+        <p>
+          <label for="e-q2-a3">C) Mestizos.</label>
+          <input id="e-q2-a3" name="q2" type="radio" value="c">
+        </p>
+
+        <img src="HP-GIF3.gif" alt="Harry Potter" class="button" style="width:300px;height:165px;">
+      </div>
+
+      <div class="container">
+        <h4>3. ¿Cuál es el hechizo que se usa contra los dementores?</h4>
+        <p>
+          <label for="e-q3-a1">A) Patronus.</label>
+          <input id="e-q3-a1" name="q3" type="radio" value="a">
+        </p>
+        <p>
+          <label for="e-q3-a2">B) Petrificus Totalus.</label>
+          <input id="e-q3-a2" name="q3" type="radio" value="b">
+        </p>
+        <p>
+          <label for="e-q3-a3">C) Riddikulus.</label>
+          <input id="e-q3-a3" name="q3" type="radio" value="c">
+        </p>
+
+        <img src="HP-GIF2-DEMENTOR.gif" alt="Harry Potter" class="button" style="width:300px;height:130px;">
+      </div>
+
+      <div class="container">
+        <h4>4. ¿Cómo se llama el tercer libro de la saga de Harry Potter?</h4>
+        <p>
+          <label for="e-q4-a1">A) Harry Potter y la Cámara Secreta.</label>
+          <input id="e-q4-a1" name="q4" type="radio" value="a">
+        </p>
+        <p>
+          <label for="e-q4-a2">B) Harry Potter y el Prisionero de Azkaban.</label>
+          <input id="e-q4-a2" name="q4" type="radio" value="b">
+        </p>
+        <p>
+          <label for="e-q4-a3">C) Harry Potter y el Cáliz de Fuego.</label>
+          <input id="e-q4-a3" name="q4" type="radio" value="c">
+        </p>
+
+        <img src="HP-GIF7-PRISONER.gif" alt="Harry Potter" class="button" style="width:300px;height:135px;">
+      </div>
+
+      <div class="container">
+        <h4>5. ¿Qué es un horocrux?</h4>
+        <p>
+          <label for="e-q5-a1">A) Es un objeto muy poderoso que hace que quien lo posea no envejezca.</label>
+          <input id="e-q5-a1" name="q5" type="radio" value="a">
+        </p>
+        <p>
+          <label for="e-q5-a2">B) Es un objeto muy poderoso que se crea cuando nace una persona, cuando<br>se crea un
+            alma.</label>
+          <input id="e-q5-a2" name="q5" type="radio" value="b">
+        </p>
+        <p>
+          <label for="e-q5-a3">C) Es un objeto muy poderoso en el que un mago o bruja ha ocultado un<br>fragmento de su
+            alma con el propósito de alcanzar la inmortalidad.</label>
+          <input id="e-q5-a3" name="q5" type="radio" value="c">
+        </p>
+
+        <img src="HP-GIF5.gif" alt="Harry Potter" class="button" style="width:300px;height:150px;">
+      </div>
+
+      <input type="submit" class="buttonResults" value="Ver resultados">
+
+    </form>
+    <div id="resultados"></div>
+  </section>
+  <br>
+
+  <button class="buttonResults" onclick="location.href='index.html'">¡Volver a jugar!</button>
+  <br><br><br>
+
+
+  <script src="script.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
