@@ -32,6 +32,7 @@ Plataforma que ofrece trivias de Harry Potter para todos los fans del mundo mág
 
 "Vista mobile: historia de usuario 2
 
+a
 
 
 "Vista mobile: historia de usuario 3"
