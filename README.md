@@ -27,15 +27,13 @@ https://Harry-Potter-Trivia.valeriamurguia.repl.co
 
 ## 3. Imagen final del proyecto: Vista Mobile
 
-[![4.png](https://i.postimg.cc/6pTfWLyb/4.png)](https://postimg.cc/3k5v9Gj2)
+[![4.png](https://i.postimg.cc/m2Y034jW/4.png)](https://postimg.cc/rKpncv7f)
 
 
 [![5.png](https://i.postimg.cc/t4rvD4Vw/5.png)](https://postimg.cc/4Y91xZPQ)
 
 
 [![6.png](https://i.postimg.cc/1tDHxmf9/6.png)](https://postimg.cc/tZCPWH3f)
-
-
 
 
 ## 4. Investigación UX: Quiénes son los usuarios y los objetivos en relación con el producto
