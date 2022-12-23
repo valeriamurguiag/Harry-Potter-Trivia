@@ -185,6 +185,10 @@ html, body {
   gap: 40px;
 }
 
+#resultados {
+  margin-left: 250px;
+}
+
 @media screen and (max-device-width: 768px){
   
   .title {
