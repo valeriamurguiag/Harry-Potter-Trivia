@@ -185,7 +185,7 @@ html, body {
   gap: 40px;
 }
 
-#resultados {
+.resultados {
   margin-left: 250px;
 }
 
