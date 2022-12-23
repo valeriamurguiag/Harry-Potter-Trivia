@@ -1,41 +1,38 @@
 <!DOCTYPE html>
-<html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Elige tu categoría</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Elige tu categoría</title>
-  <link href="letra-clara.css" rel="stylesheet" type="text/css" />
+      <style>
+        body {
+          background-image:linear-gradient(30deg,rgba(0,0,0,.5),rgba(0,0,0,.5)),url('fondo-prisionero.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+          background-position: center;
+        }
+      </style>
+    </head>
 
-  <style>
-    body {
-      background-image: url('fondo-prisionero.jpg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      background-position: center;
-    }
-  </style>
+    <body>
+      <div>
+        <h4 class="title">hp trivia</h4>
+      </div>
+      <div class="divisionLine"></div>
 
-</head>
+      <div class="containerCategories">
+        <h2 class="text5">Choose a category:</h2>
+        <div class="containerCategoriesBtns">
+          <button onclick="location.href='faciles.html'" class="button">Easy</button>
+          <button onclick="location.href='dificiles.html'" class="button">Hard</button>
+        </div>
+      </div>
+      
+      <script src="categorias.js"></script>
+      <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+    </body>
 
-<body>
-
-  <h4 class="aboreto" class="title">Harry Potter Trivia</h4>
-
-
-  <br><br><br>
-  <h2>Elige una categoría:</h2>
-
-  <button onclick="location.href='faciles.html'" class="button">Fácil</button>
-
-  <button onclick="location.href='dificiles.html'" class="button">Difícil</button>
-  <br><br><br><br><br>
-
-
-  <script src="categorias.js"></script>
-
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
-</body>
-
-</html>
+  </html>

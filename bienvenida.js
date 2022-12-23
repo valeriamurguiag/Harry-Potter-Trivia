@@ -6,11 +6,12 @@ logIn.addEventListener("click", () => {
   const name = document.getElementById("name").value
   //Establezco la condición principal, mostrar un alert
   if (name.value === null || name === "") {
-    alert("Por favor ingresa tu nombre")
+    alert("Please enter your name")
     //Establezco la condición secundaria, añadir un saludo personalizado
   } else {
     const saludo = document.getElementById("saludo");
-    saludo.innerHTML = '<h2> ¡Bienvenido/a <span> ' + name + '</span>!</h3>';
+    saludo.className = 'text4';
+    saludo.innerHTML = '<h2> Welcome <span> ' + name + '</h3>';
     //Elimino los elementos que ya no quiero mostrar
     document.getElementById("name").outerHTML = "";
     document.getElementById("ingresar").outerHTML = "";
@@ -19,7 +20,7 @@ logIn.addEventListener("click", () => {
     const button = document.createElement('button');
     button.type = 'button';
     //Determino el texto interior del botón
-    button.innerText = 'Continuar';
+    button.innerText = 'Continue';
     //Aplico atributos como clase y onclick
     button.setAttribute('class', 'button');
     button.setAttribute('onclick', 'location.href="categorias.html"');

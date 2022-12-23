@@ -1,65 +1,156 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@200;700&family=Poppins:wght@600;800&display=swap');
 
 html, body {
   height: 100%;
   width: 100%;
-  text-align: justify;
-  text-align: center;
-  font-family: 'PT Serif', serif;
-  font-size: x-large;
-  font-weight: bolder;
-  letter-spacing: 3px;
-  margin-top:3px;
-  line-height: 12mm;
-  color: white;
-  text-shadow: 5px 4px 5px black;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
-.aboreto {
-  font-family: 'Aboreto', cursive;
-  background-color: white;
-  color:black;
-  text-shadow: 5px 4px 5px white;
-  opacity: 0.3;
-  margin-left: -30px;
-  margin-top: -6px;
-  margin-right: -10px;
-  margin-bottom: 52px;
+.title {
+  font-family: 'Poppins', sans-serif;
+  color: #f1ebeb;
+  font-size: 25px;
+  font-weight: 800;
+  margin-left: 90px;
+  margin-top: 21px;
+}
+
+.divisionLine {
+  width: 100%;
+  height: 1px;
+  background-color: #424242;
+  margin-top: -17px;
+  margin-left: -5px;
+}
+
+.text1 {
+  font-family: 'Manrope', sans-serif;
+  color: #f1ebeb;
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: -5px;
+  line-height: 48px;
+}
+
+.text2 {
+  font-family: 'Manrope', sans-serif;
+  color: #c0bfbf;
+  font-size: 19px;
+  font-weight: 100;
+  margin-top: -50px;
+}
+
+.text3 {
+  font-family: 'Manrope', sans-serif;
+  color: #c0bfbf;
+  font-size: 15px;
+  margin-top: -35px;
+  font-weight: 100;
+  letter-spacing: 5px;
+}
+
+.text4 {
+  font-family: 'Manrope', sans-serif;
+  color: #f1ebeb;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 60px;
+  line-height: 48px;
+  margin-bottom: -20px;
+}
+
+.text5 {
+  font-family: 'Manrope', sans-serif;
+  color: #f1ebeb;
+  font-size: 50px;
+  font-weight: 900;
+  margin-top: -5px;
+  line-height: 48px;
+}
+
+.containerHome {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 90px;
+  margin-top: 250px;
 }
 
 .button {
-  text-align: justify;
+  width: 240px;
+  height: 30px;
+  color: #f1ebeb;
+  background-color: #D87D4A;
+  border-radius: 15px;
+  border: none;
   text-align: center;
-  font-family: 'PT Serif', serif;
-  font-size: medium;
-  font-weight: bolder;
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
   letter-spacing: 3px;
-  margin-top:30px;
-  line-height: 12mm;
-  color: white;
-  background-color: black;
-  border-radius: 5px;
-  box-shadow: 5px 4px 5px black;
+  font-weight: 600;
 }
 
-.credits {
+.containerWelcome {
+  width:100%;
   height: 100%;
-  width: 100%;
-  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: -100px;
+}
+
+.button2 {
+  width: 240px;
+  height: 30px;
+  color: #252525;
+  background-color: #f1ebeb;
+  border-radius: 15px;
+  border: none;
   text-align: center;
-  font-family: 'PT Serif', serif;
-  font-size: x-small;
-  font-weight: small;
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
   letter-spacing: 3px;
-  margin-top:30px;
-  line-height: 12mm;
-  color: white;
-  text-shadow: 5px 4px 5px black;
+  font-weight: 600;
+}
+
+.containerCategories {
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: -70px;
+}
+
+.containerCategoriesBtns {
+  display: flex;
+  gap: 30px;
+}
+
+.class-easyQuestions {
+  font-family: 'Manrope', sans-serif;
+  color: #c0bfbf;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 48px;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.class-easyAnswers {
+  font-family: 'Manrope', sans-serif;
+  color: #c0bfbf;
+  font-size: 20px;
+  margin-top: -50px;
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   position: relative;
   max-width: 600px;
   height: auto;
@@ -68,32 +159,84 @@ html, body {
   padding: 30px;
   box-sizing: border-box;
   border-radius: 15px;
-  
 }
 
 .buttonResults {
-  text-align: justify;
-  text-align: center;
-  font-family: 'PT Serif', serif;
-  font-size: medium;
-  font-weight: bolder;
+  width: 240px;
+  height: 30px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
   letter-spacing: 3px;
-  margin-top:30px;
-  line-height: 12mm;
-  color: black;
-  background-color: white;
+  text-align: center;
+  margin-top:50px;
+  color: #f1ebeb;
+  background-color: #D87D4A;
   border-radius: 15px;
-  box-shadow: 5px 4px 5px black;
+  border: none;
 }
 
-#resultado h3{
-  background: white;
-  padding: 10px;
-  margin: 10px 0;
-  color:black
+.containerPlayAgain {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
-#resultado span{
-  color: blue;
-  font-weight: bold;
+@media screen and (max-device-width: 768px){
+  
+  .title {
+    margin-left: 40px;
+    font-size: 20px;
+  }
+  
+  .containerHome {
+    margin-left: 40px;
+    margin-top: 120px;
+  }
+
+  .text4 {
+    font-size: 24px;
+    margin-top: -15px;
+  }
+
+  .text5 {
+    margin-left: 40px;
+  }
+
+  .button2 {
+    margin-bottom: 40px;
+  }
+
+  .containerWelcome {
+    margin-top: -40px;
+  }
+
+  .containerCategoriesBtns {
+  display: flex;
+  flex-direction: column;
+  }
+
+  .button {
+    margin-bottom: 15px;
+  }
+
+  .containerCategories {
+    margin-top: -35px;
+  }
+
+  .container {
+    width: 95%;
+    margin-left: 5px;
+  }
+
+  .class-easyQuestions {
+    line-height: 38px;
+    margin-bottom: 4px;
+  }
 }
+
+
+

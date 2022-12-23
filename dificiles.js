@@ -8,7 +8,7 @@ function verificarRespuestasDificiles() {
 
   for (var i = 1; i <= total; i++) {
     if (myForm["h-q" + i].value === null || myForm["h-q" + i].value === "") {
-      alert("Por favor responde la pregunta " + i);
+      alert("Please answer question " + i);
       return false;
     } else {
       if (myForm["h-q" + i].value === respuestas[i - 1]) {
@@ -18,7 +18,7 @@ function verificarRespuestasDificiles() {
   }
 
   var resultados = document.getElementById("resultadosDificiles");
-  resultados.innerHTML = '<h3>Obtuviste <span>' + puntos + '</span> de <span>' + total + ' puntos </span></h3>';
+  resultados.className ="class-easyQuestions";
+  resultados.innerHTML = '<h3>You got <span>' + puntos + '</span> out of <span>' + total + ' points </span></h3>';
   return false;
-
 }

@@ -1,123 +1,130 @@
 <!DOCTYPE html>
-<html>
+  <html>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Trivia de Harry Potter</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Trivia de Harry Potter</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
 
-  <style>
-    body {
-      background-color: black;
-      );
-    }
-  </style>
+      <style>
+      body {
+        background-image: linear-gradient(30deg,rgba(0,0,0,.5),rgba(0,0,0,.5)),url('hp-portada3.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        }
 
-</head>
+        @media screen and (max-device-width: 768px){
+          body {
+            background-image: linear-gradient(30deg,rgba(0,0,0,.5),rgba(0,0,0,.5)),url('hp-portada5.jpg');
+            background-attachment: local;
+            background-size: 22em;
+            background-position:top;
+            background-repeat: repeat;
+          }
+        }
+      </style>
+    </head>
 
-<body>
+    <body>
+      <div>
+        <h4 class="title">hp trivia</h4>
+      </div>
+      <div class="divisionLine"></div>
 
-  <h4 class="aboreto" class="title">Harry Potter Trivia</h4>
+      <section>
+        <form name="triviaFormDificiles" onsubmit="return verificarRespuestasDificiles()">
+          <div class="container">
+            <h4 class="class-easyQuestions">1. What was Bellatrix Lestrange's house when she studied at Hogwarts?</h4>
+            <p>
+            <label class="class-easyAnswers" for="h-q1-a1">A) Ravenclaw.</label>
+            <input id="h-q1-a1" name="h-q1" type="radio" value="a">
+            </p>
+            <p>
+            <label class="class-easyAnswers" for="h-q1-a2">B) Slytherin.</label>
+            <input id="h-q1-a2" name="h-q1" type="radio" value="b">
+            </p>
+            <p>
+            <label class="class-easyAnswers" for="h-q1-a3">C) Hufflepuff.</label>
+            <input id="h-q1-a3" name="h-q1" type="radio" value="c">
+            </p>
+          </div>
 
-  <section>
-    <form name="triviaFormDificiles" onsubmit="return verificarRespuestasDificiles()">
+          <div class="container">
+            <h4 class="class-easyQuestions">2. Who gave Harry the Nimbus 2000?</h4>
+            <p>
+            <label class="class-easyAnswers" for="h-q2-a1">A) Albus Dumbledore.</label>
+            <input id="h-q2-a1" name="h-q2" type="radio" value="a">
+            </p>
+            <p>
+            <label class="class-easyAnswers" for="h-q2-a2">B) Hagrid.</label>
+            <input id="h-q2-a2" name="h-q2" type="radio" value="b">
+            </p>
+            <p>
+            <label class="class-easyAnswers" for="h-q2-a3">C) Minerva McGonagall.</label>
+            <input id="h-q2-a3" name="h-q2" type="radio" value="c">
+            </p>
+          </div>
 
-      <div class="container">
-        <h4>1. ¿Cuál fue la casa de Bellatrix Lestrange cuando estudió en Hogwarts?</h4>
-        <p>
-          <label for="h-q1-a1">A) Ravenclaw.</label>
-          <input id="h-q1-a1" name="h-q1" type="radio" value="a">
-        </p>
-        <p>
-          <label for="h-q1-a2">B) Slytherin.</label>
-          <input id="h-q1-a2" name="h-q1" type="radio" value="b">
-        </p>
-        <p>
-          <label for="h-q1-a3">C) Hufflepuff.</label>
-          <input id="h-q1-a3" name="h-q1" type="radio" value="c">
-        </p>
-        <img src="HP-GIF6-BELLATRIX.gif" alt="Harry Potter" class="button" style="width:280px;height:180px;">
+          <div class="container">
+            <h4 class="class-easyQuestions">3. In the movie "The Philosopher's Stone", what is the name of the three-headed dog?</h4>
+            <p>
+            <label class="class-easyAnswers" for="h-q3-a1">A) Hedwig.</label>
+            <input id="h-q3-a1" name="h-q3" type="radio" value="a">
+            </p>
+            <p>
+            <label class="class-easyAnswers" for="h-q3-a2">B) Fluffy.</label>
+            <input id="h-q3-a2" name="h-q3" type="radio" value="b">
+            </p>
+            <p>
+            <label class="class-easyAnswers" for="h-q3-a3">C) Remus.</label>
+            <input id="h-q3-a3" name="h-q3" type="radio" value="c">
+            </p>
+          </div>
+
+          <div class="container">
+            <h4 class="class-easyQuestions">4. Was Voldemort the first wizard to make a Horcrux?</h4>
+            <p>
+            <label class="class-easyAnswers" for="h-q4-a1">A) True.</label>
+            <input id="h-q4-a1" name="h-q4" type="radio" value="a">
+            </p>
+            <p>
+            <label class="class-easyAnswers" for="h-q4-a2">B) False.</label>
+            <input id="h-q4-a2" name="h-q4" type="radio" value="b">
+            </p>
+          </div>
+
+          <div class="container">
+            <h4 class="class-easyQuestions">5. What element do Harry and Voldemort's wands share?</h4>
+            <p>
+            <label class="class-easyAnswers" for="h-q5-a1">A) Phoenix feather.</label>
+            <input id="h-q5-a1" name="h-q5" type="radio" value="a">
+            </p>
+            <p>
+            <label class="class-easyAnswers" for="h-q5-a2">B) Dragon heartstring.</label>
+            <input id="h-q5-a2" name="h-q5" type="radio" value="b">
+            </p>
+            <p>
+            <label class="class-easyAnswers" for="h-q5-a3">C) Unicorn hair.</label>
+            <input id="h-q5-a3" name="h-q5" type="radio" value="c">
+            </p>
+          </div>
+
+          <div class="containerWelcome">
+              <input type="submit" class="buttonResults" value="See results">
+          </div>
+        
+        </form>
+        <div id="resultadosDificiles"></div>
+      </section>
+      <br>
+      <div class="containerPlayAgain">
+        <button class="buttonResults" onclick="location.href='index.html'">Play again</button>  
       </div>
 
-      <div class="container">
-        <h4>2. ¿Quién le regaló a Harry la Nimbus 2000?</h4>
-        <p>
-          <label for="h-q2-a1">A) Albus Dumbledore.</label>
-          <input id="h-q2-a1" name="h-q2" type="radio" value="a">
-        </p>
-        <p>
-          <label for="h-q2-a2">B) Hagrid.</label>
-          <input id="h-q2-a2" name="h-q2" type="radio" value="b">
-        </p>
-        <p>
-          <label for="h-q2-a3">C) Minerva McGonagall.</label>
-          <input id="h-q2-a3" name="h-q2" type="radio" value="c">
-        </p>
-        <img src="HP-GIF8-QUIDDITCH.gif" alt="Harry Potter" class="button" style="width:300px;height:120px;">
-      </div>
-
-      <div class="container">
-        <h4>3. En la película "La Piedra Filosofal", ¿cómo se<br>llama el perro de tres cabezas?</h4>
-        <p>
-          <label for="h-q3-a1">A) Hedwig.</label>
-          <input id="h-q3-a1" name="h-q3" type="radio" value="a">
-        </p>
-        <p>
-          <label for="h-q3-a2">B) Fluffy.</label>
-          <input id="h-q3-a2" name="h-q3" type="radio" value="b">
-        </p>
-        <p>
-          <label for="h-q3-a3">C) Remus.</label>
-          <input id="h-q3-a3" name="h-q3" type="radio" value="c">
-        </p>
-        <img src="HP-GIF9-DOG.gif" alt="Harry Potter" class="button" style="width:300px;height:120px;">
-      </div>
-
-      <div class="container">
-        <h4>4. Voldemort fue el primer mago en hacer un horrocrux.</h4>
-        <p>
-          <label for="h-q4-a1">A) Verdadero.</label>
-          <input id="h-q4-a1" name="h-q4" type="radio" value="a">
-        </p>
-        <p>
-          <label for="h-q4-a2">B) Falso.</label>
-          <input id="h-q4-a2" name="h-q4" type="radio" value="b">
-        </p>
-        <img src="HP-GIF10-VOLDEMORT.gif" alt="Harry Potter" class="button" style="width:300px;height:140px;">
-      </div>
-
-      <div class="container">
-        <h4>5. ¿Qué elemento comparten las varitas de Harry y Voldemort?</h4>
-        <p>
-          <label for="h-q5-a1">A) Pluma de fénix.</label>
-          <input id="h-q5-a1" name="h-q5" type="radio" value="a">
-        </p>
-        <p>
-          <label for="h-q5-a2">B) Fibra de corazón de dragón.</label>
-          <input id="h-q5-a2" name="h-q5" type="radio" value="b">
-        </p>
-        <p>
-          <label for="h-q5-a3">C) Pelo de unicornio.</label>
-          <input id="h-q5-a3" name="h-q5" type="radio" value="c">
-        </p>
-        <img src="HP-GIF11-FIGHT.gif" alt="Harry Potter" class="button" style="width:280px;height:165px;">
-      </div>
-
-      <input type="submit" class="buttonResults" value="Ver resultados">
-
-    </form>
-    <div id="resultadosDificiles"></div>
-  </section>
-  <br>
-
-  <button class="buttonResults" onclick="location.href='index.html'">¡Volver a jugar!</button>
-  <br><br><br>
-
-
-  <script src="dificiles.js"></script>
-
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
-</body>
-
-</html>
+      <script src="dificiles.js"></script>
+      <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+    </body>
+  </html>
