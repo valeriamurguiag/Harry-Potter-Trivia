@@ -18,13 +18,17 @@ Link: https://valeriamurguiag.github.io/Harry-Potter-Trivia/index.html
 
 
 ## 2. Imagen final del proyecto 
-[![1.png](https://i.postimg.cc/q7kDxCR8/1.png)](https://postimg.cc/5XRmxy80)
+[![1.png](https://i.postimg.cc/8cZwdw2T/1.png)](https://postimg.cc/sGZpsPfL)
 
 
-[![2.png](https://i.postimg.cc/BvMYYQLR/2.png)](https://postimg.cc/XZBkXWgg)
+[![2.png](https://i.postimg.cc/qqDX6qKR/2.png)](https://postimg.cc/bSb2Kz3c)
 
 
-[![3.png](https://i.postimg.cc/YjKbGvZL/3.png)](https://postimg.cc/8f4hxz1T)
+[![3.png](https://i.postimg.cc/LsktBNPG/3.png)](https://postimg.cc/WD3qsmX7)
+
+
+[![4.png](https://i.postimg.cc/fT3YgwXc/4.png)](https://postimg.cc/mtscPWmk)
+
 
 ## 3. Imagen final del proyecto: Vista Mobile
 
