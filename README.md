@@ -32,7 +32,7 @@ Link: https://valeriamurguiag.github.io/Harry-Potter-Trivia/index.html
 
 ## 3. Imagen final del proyecto: Vista Mobile
 
-[![5.png](https://i.postimg.cc/jSn2b2dX/5.png)](https://postimg.cc/CRYSCF8B)
+[![5.png](https://i.postimg.cc/jq8SnPDc/5.png)](https://postimg.cc/mhHs0cN1)
 
 
 [![5.png](https://i.postimg.cc/t4rvD4Vw/5.png)](https://postimg.cc/4Y91xZPQ)
