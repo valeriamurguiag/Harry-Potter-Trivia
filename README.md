@@ -35,10 +35,12 @@ Link: https://valeriamurguiag.github.io/Harry-Potter-Trivia/index.html
 [![5.png](https://i.postimg.cc/jq8SnPDc/5.png)](https://postimg.cc/mhHs0cN1)
 
 
-[![5.png](https://i.postimg.cc/t4rvD4Vw/5.png)](https://postimg.cc/4Y91xZPQ)
+[![6.png](https://i.postimg.cc/85zVTXmS/6.png)](https://postimg.cc/7CdRVVRs)
 
 
-[![6.png](https://i.postimg.cc/1tDHxmf9/6.png)](https://postimg.cc/tZCPWH3f)
+[![7.png](https://i.postimg.cc/7PCZ7bSy/7.png)](https://postimg.cc/RqBmxSPP)
+
+[![8.png](https://i.postimg.cc/GhG37NM7/8.png)](https://postimg.cc/N5GwLNvm)
 
 
 ## 4. Investigación UX: Quiénes son los usuarios y los objetivos en relación con el producto
