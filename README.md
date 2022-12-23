@@ -13,7 +13,8 @@
 ## 1. Resumen del proyecto
 
 Plataforma que ofrece trivias de Harry Potter para todos los fans del mundo mágico de J. K. Rowling. 
-https://Harry-Potter-Trivia.valeriamurguia.repl.co
+
+Link: https://valeriamurguiag.github.io/Harry-Potter-Trivia/index.html
 
 
 ## 2. Imagen final del proyecto 
