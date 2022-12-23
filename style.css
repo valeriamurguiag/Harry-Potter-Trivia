@@ -185,7 +185,14 @@ html, body {
   gap: 40px;
 }
 
-.resultados {
+.class-easyQuestions2 {
+  font-family: 'Manrope', sans-serif;
+  color: #c0bfbf;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 48px;
+  justify-content: center;
+  margin-top: 5px;
   margin-left: 250px;
 }
 
