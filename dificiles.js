@@ -19,6 +19,7 @@ function verificarRespuestasDificiles() {
 
   var resultados = document.getElementById("resultadosDificiles");
   resultados.className ="class-easyQuestions";
+  resultados.className ="resultados";
   resultados.innerHTML = '<h3>You got <span>' + puntos + '</span> out of <span>' + total + ' points </span></h3>';
   return false;
 }
