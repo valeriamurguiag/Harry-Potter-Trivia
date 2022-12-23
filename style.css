@@ -186,6 +186,7 @@ html, body {
 }
 
 .class-easyQuestions2 {
+  display: flex;
   font-family: 'Manrope', sans-serif;
   color: #c0bfbf;
   font-size: 25px;
@@ -193,7 +194,6 @@ html, body {
   line-height: 48px;
   justify-content: center;
   margin-top: 5px;
-  margin-left: 500px;
 }
 
 @media screen and (max-device-width: 768px){
